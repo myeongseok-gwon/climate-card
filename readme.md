@@ -39,7 +39,7 @@
    - ![No Parallel Trend](./img/vehicles_no_parallel_trend.png)
    
 2. **지하철 승객 수 변화**:
-   - 기후동행카드 정책 시행 전 시기, 유의미한 parallel trend가 확인되었고, 이중차분법의 결과, 정책 적용이 탑승객 수 변화에 유의미한 영향을 주지 않는 것으로 나타났습니다.
+   - 기후동행카드 정책 시행 전 시기, 유의미한 parallel trend가 확인되었고, 이중차분법의 결과, 정책 적용이 탑승객 수 변화에 유의미한 영향을 주지 않는 것으로 나타났습니다. 이용자 수가 정책 실행부터 서서히 증가하는 것에 의한 negative bias를 우려할 수 있으므로, 주 평균 이용자수를 추가로 control한 did를 확인했고 여전히 같은 결과를 확인할 수 있었습니다.
    - ![Parallel Trend](./img/parallel_trend.png)
    - ![Overall Passengers](./img/overall_passengers.png)
 
